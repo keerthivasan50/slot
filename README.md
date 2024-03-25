@@ -125,7 +125,8 @@ Execute the program using runserver command.
 
 
 ## OUTPUT
-![image](https://github.com/keerthivasan50/slot/assets/150429883/5cc3eda6-d667-45de-8a3c-6e3e4bfeb106)
+![keerthivasan web](https://github.com/keerthivasan50/slot/assets/150429883/54c6e415-6a10-4092-8732-f6f1d825b795)
+
 
 
 ## RESULT
