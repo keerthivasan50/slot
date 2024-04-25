@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:
+## Date:13.03.2024
 
 # AIM
 To write a html webpage page to display your slot timetable.
@@ -24,11 +24,110 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+<head>
+     <title>Slot TIme Table-S.KEERTHIVASAN (212222040076)</title>
+</head>
+<body>
+<center>
+<img src="/static/logo.png" height="100" width"550">
+</center>
+<br>
+     <table align="center" width="550" cellspacing="2" cellpadding="4" border="5" bgcolor="cyan">
+     <caption><b>Time Table-S.KEERTHIVASAN(212222040076)</b></caption>
+<tr align="center">
+	<th bgcolor="cyan">Day/Time</th>
+	<th bgcolor="cyan">Monday</th>
+	<th bgcolor="cyan">Tuesday</th>
+	<th bgcolor="cyan">Wednesday</th>
+	<th bgcolor="cyan">Thursday</th>
+ 	<th bgcolor="cyan">Friday</th>
+</tr>
+<tr align="center">
+	<th bgcolor="red">8-10</th>
+	<td>Maths</td>
+	<td>BEEE</td>
+	<td>FWAD</td>
+	<td >Free Slot</td>
+    <td>BEEE</td>
+</tr>
+<tr align="center">
+	<th bgcolor="red">10-12</th>
+	<td>FREE SLOT</td>
+	<td>FWAD</td>
+	<td>DBMS</td>
+    <td>COMPILER DESIGN</td>
+    <td>FREE SLOT</td>
+
+</tr>
+<tr>
+	<th bgcolor="red">12-1</th>
+	<td colspan="5" align="center">L U N C H</td>
+</tr>
+<tr align="center">
+	<th bgcolor="red">1-3</th>
+	<td>FWAD</td>
+	<td>DBMS</td>
+	<td>C</td>
+    <td>MATHS</td>
+    <td>FREE SLOT</td>
+
+</tr>
+<tr align="center">
+	<th bgcolor="red">3-5</th>
+	<td colspan="3">FREE SLOT</td>
+	<td>FREE SLOT</td>
+    <td>FREE SLOT</td>
+</tr>
+</table>
+</br>
+<table align="center" cellspacing="2" cellpadding="4" border="2">
+<tr align="center">
+<th>S. No.</th>
+<th>Subject Code</th>
+<th>Subject Name</th>
+</tr>
+<tr>
+<td align="center">1.</td>
+<td align="center">19MA218</td>
+<td>MATHS</td>
+</tr>
+<tr>
+<td align="center">2.</td>
+<td align="center">19AI414</td>
+<td>Fundamentals Of Web Application Development</td>
+</tr>
+<tr>
+<td align="center">3.</td>
+<td align="center">19CS404</td>
+<td>Database Management System and Its Application</td>
+</tr>
+<tr>
+<td align="center">4.</td>
+<td align="center">19EE305</td>
+<td>BASIC ELECTICAL,ELECTRONICS AND MEASURMENT ENGINEERING </td>
+</tr>
+<tr>
+<td align="center">5.</td>
+<td align="center">19CS409</td>
+<td>COMPILER DESIGND</td>
+</tr>
+<tr>
+    <td align="center">6.</td>
+    <td align="center">19CS302</td>
+    <td>C PROGRAMMING </td>
+    </tr>
+</table>
+</body>
+</html>
+```
 
    
 
 ## OUTPUT
 
+![Screenshot 2024-04-25 230250](https://github.com/keerthivasan50/slot/assets/150429883/b7e47a9f-5beb-47f1-a570-d89f451e5d1b)
 
 
 
